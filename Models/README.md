@@ -54,11 +54,3 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## What Recruiters Can Check Quickly
-
-- Final metrics: `output/metrics/metrics_by_store_target.csv`
-- Overall average performance: `output/metrics/metrics_overall.csv`
-- 30-day forecast output: `output/forecasts/forecast_next_30_days.csv`
-- Inventory recommendation: `output/forecasts/inventory_plan_next_30_days.csv`
-- Executive summary for decisions: `output/forecasts/business_decision_summary.csv`
-- Forecast charts: `output/plots/`

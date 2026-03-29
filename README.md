@@ -8,9 +8,8 @@ Welcome to **RevenueScan**! This project is a comprehensive time-series forecast
 As the Technical Leader, I architected and built this system from the ground up to empower F&B businesses to anticipate customer demand, optimize their inventory, and make data-driven decisions.
 
 ## Key Features & Contributions
-* **Advanced Machine Learning Architecture**: Structured the backend using modular and decoupled Python scripts (`src/`), decoupling Data Generation, Preprocessing, Training, Evaluation, and Visualization into distinct functional components.
+* **Advanced Machine Learning Architecture**: Structured the backend using modular for Data Generation, Preprocessing, Training, Evaluation, and Visualization into distinct functional components.
 * **ARIMA-based Revenue Forecasting**: Built the core revenue/demand forecasting engine utilizing robust Statistical Autoregressive Integrated Moving Average (ARIMA) models.
-* **Multi-Restaurant Physical Dataset**: Autonomously engineered a specialized data generator (`src/data_generator.py`) to create mock historical time-series datasets (`data/raw_restaurant_data.csv`) encompassing diverse F&B profiles (eg: Morning rush vs. Weekend spike).
 * **Comprehensive ML Pipeline**: 
   * **Data Preprocessing** (`src/preprocessing.py`): Time-series indexing, interpolation, and 80/20 train/test splits.
   * **Training** (`src/training.py`): Fitting ARIMA models to historical revenue data.
@@ -40,9 +39,6 @@ Models/
 1. Navigate to the model folder: `cd Models`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Execute the pipeline for all target restaurants: `python main.py`
-
-This master process will generate the dataset (if missing), run the training iterations, evaluate the errors (MAE/RMSE), and automatically generate visual graphs in the `plots/` folder.
-
 ---
 
 ## Frontend Web Application (React App)
