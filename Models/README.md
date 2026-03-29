@@ -40,13 +40,6 @@ Models/
     evaluation.py
     visualization.py
 ```
-
-## CV Mapping
-
-- Built a revenue forecasting system for F&B SMEs using ARIMA models.
-- Designed full ML pipeline: data preprocessing, training, and evaluation (MAE, RMSE).
-- Provided demand forecasts to support inventory planning and business decisions.
-
 ## How To Run
 
 1. Install dependencies:
