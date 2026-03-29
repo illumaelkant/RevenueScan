@@ -1,0 +1,21 @@
+restaurant_id,restaurant_name,target,arima_order,train_size,test_size,mae,rmse
+S01,Pho Sunrise,revenue_vnd,"(2, 1, 2)",335,30,1799392.55,2042781.8
+S01,Pho Sunrise,raw_material_kg,"(2, 1, 2)",335,30,9.73,12.03
+S02,Saigon Com Tam,revenue_vnd,"(2, 1, 2)",335,30,1869826.38,2452904.17
+S02,Saigon Com Tam,raw_material_kg,"(2, 1, 2)",335,30,8.45,11.28
+S03,Central Bun Bo,revenue_vnd,"(2, 1, 2)",335,30,2395368.59,2933703.55
+S03,Central Bun Bo,raw_material_kg,"(2, 1, 2)",335,30,8.33,10.56
+S04,Lotus Noodle House,revenue_vnd,"(2, 1, 2)",335,30,2427474.66,3012566.67
+S04,Lotus Noodle House,raw_material_kg,"(2, 1, 2)",335,30,13.08,15.85
+S05,Mekong Grill,revenue_vnd,"(2, 1, 2)",335,30,5266553.64,6751265.46
+S05,Mekong Grill,raw_material_kg,"(2, 1, 2)",335,30,19.17,23.65
+S06,Riverbank Seafood,revenue_vnd,"(2, 1, 2)",335,30,6116519.15,7952651.95
+S06,Riverbank Seafood,raw_material_kg,"(2, 1, 2)",335,30,23.2,29.86
+S07,Green Bowl Vegan,revenue_vnd,"(2, 1, 2)",335,30,2437878.29,3140455.49
+S07,Green Bowl Vegan,raw_material_kg,"(2, 1, 2)",335,30,9.02,11.24
+S08,Hanoi Bun Cha,revenue_vnd,"(2, 1, 2)",335,30,3049785.52,3784886.17
+S08,Hanoi Bun Cha,raw_material_kg,"(2, 1, 2)",335,30,13.35,17.95
+S09,Street Eats Hub,revenue_vnd,"(2, 1, 2)",335,30,2038522.1,2608054.81
+S09,Street Eats Hub,raw_material_kg,"(2, 1, 2)",335,30,9.9,12.47
+S10,Family Rice Kitchen,revenue_vnd,"(2, 1, 2)",335,30,2747617.06,3399283.03
+S10,Family Rice Kitchen,raw_material_kg,"(2, 1, 2)",335,30,15.04,18.72

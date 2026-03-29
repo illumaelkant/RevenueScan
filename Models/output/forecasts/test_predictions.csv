@@ -1,0 +1,601 @@
+restaurant_id,restaurant_name,target,date,actual_value,predicted_value
+S01,Pho Sunrise,revenue_vnd,2025-12-02,12818913.0,14655961.74
+S01,Pho Sunrise,revenue_vnd,2025-12-03,16816680.0,14694472.02
+S01,Pho Sunrise,revenue_vnd,2025-12-04,16883803.0,14763319.25
+S01,Pho Sunrise,revenue_vnd,2025-12-05,16481860.0,14833850.28
+S01,Pho Sunrise,revenue_vnd,2025-12-06,14213343.0,14904007.91
+S01,Pho Sunrise,revenue_vnd,2025-12-07,17125554.0,14973647.91
+S01,Pho Sunrise,revenue_vnd,2025-12-08,18207416.0,15042763.59
+S01,Pho Sunrise,revenue_vnd,2025-12-09,13569569.0,15111358.16
+S01,Pho Sunrise,revenue_vnd,2025-12-10,13512802.0,15179435.48
+S01,Pho Sunrise,revenue_vnd,2025-12-11,14310976.0,15246999.46
+S01,Pho Sunrise,revenue_vnd,2025-12-12,12908503.0,15314053.97
+S01,Pho Sunrise,revenue_vnd,2025-12-13,18720107.0,15380602.84
+S01,Pho Sunrise,revenue_vnd,2025-12-14,17191309.0,15446649.89
+S01,Pho Sunrise,revenue_vnd,2025-12-15,13581237.0,15512198.9
+S01,Pho Sunrise,revenue_vnd,2025-12-16,18124978.0,15577253.63
+S01,Pho Sunrise,revenue_vnd,2025-12-17,16180593.0,15641817.81
+S01,Pho Sunrise,revenue_vnd,2025-12-18,15560448.0,15705895.13
+S01,Pho Sunrise,revenue_vnd,2025-12-19,19283678.0,15769489.27
+S01,Pho Sunrise,revenue_vnd,2025-12-20,17648694.0,15832603.87
+S01,Pho Sunrise,revenue_vnd,2025-12-21,17484783.0,15895242.54
+S01,Pho Sunrise,revenue_vnd,2025-12-22,16119168.0,15957408.88
+S01,Pho Sunrise,revenue_vnd,2025-12-23,15171779.0,16019106.44
+S01,Pho Sunrise,revenue_vnd,2025-12-24,14729534.0,16080338.77
+S01,Pho Sunrise,revenue_vnd,2025-12-25,16156193.0,16141109.37
+S01,Pho Sunrise,revenue_vnd,2025-12-26,18475179.0,16201421.71
+S01,Pho Sunrise,revenue_vnd,2025-12-27,18673738.0,16261279.27
+S01,Pho Sunrise,revenue_vnd,2025-12-28,19311938.0,16320685.46
+S01,Pho Sunrise,revenue_vnd,2025-12-29,19379563.0,16379643.68
+S01,Pho Sunrise,revenue_vnd,2025-12-30,17014325.0,16438157.33
+S01,Pho Sunrise,revenue_vnd,2025-12-31,19397614.0,16496229.75
+S01,Pho Sunrise,raw_material_kg,2025-12-02,64.7,73.29
+S01,Pho Sunrise,raw_material_kg,2025-12-03,78.33,72.35
+S01,Pho Sunrise,raw_material_kg,2025-12-04,91.54,72.63
+S01,Pho Sunrise,raw_material_kg,2025-12-05,79.96,72.72
+S01,Pho Sunrise,raw_material_kg,2025-12-06,71.97,72.69
+S01,Pho Sunrise,raw_material_kg,2025-12-07,69.22,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-08,76.98,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-09,70.44,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-10,64.66,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-11,74.87,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-12,73.08,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-13,94.92,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-14,78.27,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-15,64.29,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-16,80.87,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-17,76.63,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-18,76.28,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-19,81.96,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-20,83.79,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-21,78.98,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-22,92.6,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-23,69.34,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-24,75.88,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-25,86.8,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-26,88.67,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-27,89.68,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-28,94.23,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-29,95.99,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-30,83.12,72.68
+S01,Pho Sunrise,raw_material_kg,2025-12-31,95.08,72.68
+S02,Saigon Com Tam,revenue_vnd,2025-12-02,14822882.0,15778345.16
+S02,Saigon Com Tam,revenue_vnd,2025-12-03,15548735.0,15383919.69
+S02,Saigon Com Tam,revenue_vnd,2025-12-04,15534837.0,15616678.81
+S02,Saigon Com Tam,revenue_vnd,2025-12-05,14333329.0,15417500.21
+S02,Saigon Com Tam,revenue_vnd,2025-12-06,18168229.0,15577218.35
+S02,Saigon Com Tam,revenue_vnd,2025-12-07,18399030.0,15447859.91
+S02,Saigon Com Tam,revenue_vnd,2025-12-08,15127607.0,15552465.72
+S02,Saigon Com Tam,revenue_vnd,2025-12-09,14292148.0,15467855.45
+S02,Saigon Com Tam,revenue_vnd,2025-12-10,13137402.0,15536289.73
+S02,Saigon Com Tam,revenue_vnd,2025-12-11,17533395.0,15480938.54
+S02,Saigon Com Tam,revenue_vnd,2025-12-12,15352332.0,15525707.79
+S02,Saigon Com Tam,revenue_vnd,2025-12-13,17712049.0,15489497.44
+S02,Saigon Com Tam,revenue_vnd,2025-12-14,17306743.0,15518785.17
+S02,Saigon Com Tam,revenue_vnd,2025-12-15,16894187.0,15495096.61
+S02,Saigon Com Tam,revenue_vnd,2025-12-16,17262193.0,15514256.43
+S02,Saigon Com Tam,revenue_vnd,2025-12-17,17728710.0,15498759.55
+S02,Saigon Com Tam,revenue_vnd,2025-12-18,14917103.0,15511293.77
+S02,Saigon Com Tam,revenue_vnd,2025-12-19,16332555.0,15501155.82
+S02,Saigon Com Tam,revenue_vnd,2025-12-20,18963721.0,15509355.61
+S02,Saigon Com Tam,revenue_vnd,2025-12-21,17107698.0,15502723.44
+S02,Saigon Com Tam,revenue_vnd,2025-12-22,17279045.0,15508087.69
+S02,Saigon Com Tam,revenue_vnd,2025-12-23,18241228.0,15503748.97
+S02,Saigon Com Tam,revenue_vnd,2025-12-24,15542208.0,15507258.22
+S02,Saigon Com Tam,revenue_vnd,2025-12-25,17557642.0,15504419.86
+S02,Saigon Com Tam,revenue_vnd,2025-12-26,24115550.0,15506715.59
+S02,Saigon Com Tam,revenue_vnd,2025-12-27,19099255.0,15504858.75
+S02,Saigon Com Tam,revenue_vnd,2025-12-28,18027642.0,15506360.6
+S02,Saigon Com Tam,revenue_vnd,2025-12-29,17798778.0,15505145.87
+S02,Saigon Com Tam,revenue_vnd,2025-12-30,17477633.0,15506128.37
+S02,Saigon Com Tam,revenue_vnd,2025-12-31,16087693.0,15505333.7
+S02,Saigon Com Tam,raw_material_kg,2025-12-02,79.04,86.55
+S02,Saigon Com Tam,raw_material_kg,2025-12-03,90.83,86.19
+S02,Saigon Com Tam,raw_material_kg,2025-12-04,88.16,86.11
+S02,Saigon Com Tam,raw_material_kg,2025-12-05,82.49,86.14
+S02,Saigon Com Tam,raw_material_kg,2025-12-06,90.52,86.18
+S02,Saigon Com Tam,raw_material_kg,2025-12-07,97.81,86.2
+S02,Saigon Com Tam,raw_material_kg,2025-12-08,85.31,86.22
+S02,Saigon Com Tam,raw_material_kg,2025-12-09,78.26,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-10,75.49,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-11,96.51,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-12,76.62,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-13,93.11,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-14,100.2,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-15,103.89,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-16,87.04,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-17,104.93,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-18,83.47,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-19,85.67,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-20,92.62,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-21,94.83,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-22,93.72,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-23,95.08,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-24,98.43,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-25,90.44,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-26,126.62,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-27,93.9,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-28,94.98,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-29,92.36,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-30,93.86,86.23
+S02,Saigon Com Tam,raw_material_kg,2025-12-31,86.88,86.23
+S03,Central Bun Bo,revenue_vnd,2025-12-02,14033674.0,13169459.07
+S03,Central Bun Bo,revenue_vnd,2025-12-03,12798674.0,13310938.68
+S03,Central Bun Bo,revenue_vnd,2025-12-04,16518771.0,13239874.28
+S03,Central Bun Bo,revenue_vnd,2025-12-05,14976432.0,13283881.65
+S03,Central Bun Bo,revenue_vnd,2025-12-06,12971072.0,13256836.84
+S03,Central Bun Bo,revenue_vnd,2025-12-07,18371467.0,13273461.47
+S03,Central Bun Bo,revenue_vnd,2025-12-08,14666049.0,13263242.28
+S03,Central Bun Bo,revenue_vnd,2025-12-09,16498620.0,13269524.04
+S03,Central Bun Bo,revenue_vnd,2025-12-10,14741144.0,13265662.63
+S03,Central Bun Bo,revenue_vnd,2025-12-11,14655020.0,13268036.24
+S03,Central Bun Bo,revenue_vnd,2025-12-12,16000328.0,13266577.18
+S03,Central Bun Bo,revenue_vnd,2025-12-13,16162695.0,13267474.07
+S03,Central Bun Bo,revenue_vnd,2025-12-14,17931136.0,13266922.75
+S03,Central Bun Bo,revenue_vnd,2025-12-15,14093793.0,13267261.65
+S03,Central Bun Bo,revenue_vnd,2025-12-16,14900779.0,13267053.32
+S03,Central Bun Bo,revenue_vnd,2025-12-17,14395346.0,13267181.38
+S03,Central Bun Bo,revenue_vnd,2025-12-18,13489335.0,13267102.66
+S03,Central Bun Bo,revenue_vnd,2025-12-19,13268350.0,13267151.05
+S03,Central Bun Bo,revenue_vnd,2025-12-20,13215017.0,13267121.31
+S03,Central Bun Bo,revenue_vnd,2025-12-21,17621471.0,13267139.59
+S03,Central Bun Bo,revenue_vnd,2025-12-22,15768599.0,13267128.35
+S03,Central Bun Bo,revenue_vnd,2025-12-23,13426496.0,13267135.26
+S03,Central Bun Bo,revenue_vnd,2025-12-24,16293670.0,13267131.01
+S03,Central Bun Bo,revenue_vnd,2025-12-25,18409776.0,13267133.62
+S03,Central Bun Bo,revenue_vnd,2025-12-26,16888650.0,13267132.02
+S03,Central Bun Bo,revenue_vnd,2025-12-27,17348370.0,13267133.01
+S03,Central Bun Bo,revenue_vnd,2025-12-28,18250756.0,13267132.4
+S03,Central Bun Bo,revenue_vnd,2025-12-29,16240349.0,13267132.77
+S03,Central Bun Bo,revenue_vnd,2025-12-30,18709246.0,13267132.54
+S03,Central Bun Bo,revenue_vnd,2025-12-31,15458931.0,13267132.68
+S03,Central Bun Bo,raw_material_kg,2025-12-02,64.29,62.24
+S03,Central Bun Bo,raw_material_kg,2025-12-03,62.27,63.95
+S03,Central Bun Bo,raw_material_kg,2025-12-04,71.23,64.09
+S03,Central Bun Bo,raw_material_kg,2025-12-05,55.88,63.9
+S03,Central Bun Bo,raw_material_kg,2025-12-06,56.21,63.75
+S03,Central Bun Bo,raw_material_kg,2025-12-07,87.07,63.67
+S03,Central Bun Bo,raw_material_kg,2025-12-08,70.92,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-09,72.14,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-10,57.3,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-11,63.46,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-12,65.01,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-13,70.15,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-14,72.56,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-15,58.42,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-16,63.91,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-17,63.82,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-18,63.0,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-19,56.27,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-20,59.68,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-21,66.89,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-22,74.02,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-23,55.72,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-24,78.12,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-25,77.58,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-26,75.42,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-27,81.44,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-28,89.98,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-29,73.8,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-30,80.54,63.64
+S03,Central Bun Bo,raw_material_kg,2025-12-31,74.15,63.64
+S04,Lotus Noodle House,revenue_vnd,2025-12-02,14316479.0,16033751.12
+S04,Lotus Noodle House,revenue_vnd,2025-12-03,15043398.0,16675490.79
+S04,Lotus Noodle House,revenue_vnd,2025-12-04,15719245.0,16216231.64
+S04,Lotus Noodle House,revenue_vnd,2025-12-05,18449856.0,16594371.8
+S04,Lotus Noodle House,revenue_vnd,2025-12-06,17783980.0,16284893.3
+S04,Lotus Noodle House,revenue_vnd,2025-12-07,19043396.0,16538239.02
+S04,Lotus Noodle House,revenue_vnd,2025-12-08,17644586.0,16330846.83
+S04,Lotus Noodle House,revenue_vnd,2025-12-09,16940487.0,16500620.92
+S04,Lotus Noodle House,revenue_vnd,2025-12-10,16443139.0,16361641.53
+S04,Lotus Noodle House,revenue_vnd,2025-12-11,18507308.0,16475411.96
+S04,Lotus Noodle House,revenue_vnd,2025-12-12,16365897.0,16382277.93
+S04,Lotus Noodle House,revenue_vnd,2025-12-13,19663185.0,16458518.72
+S04,Lotus Noodle House,revenue_vnd,2025-12-14,19145257.0,16396106.96
+S04,Lotus Noodle House,revenue_vnd,2025-12-15,17891009.0,16447198.08
+S04,Lotus Noodle House,revenue_vnd,2025-12-16,18594186.0,16405374.19
+S04,Lotus Noodle House,revenue_vnd,2025-12-17,16989241.0,16439611.8
+S04,Lotus Noodle House,revenue_vnd,2025-12-18,17679889.0,16411584.43
+S04,Lotus Noodle House,revenue_vnd,2025-12-19,20020939.0,16434528.02
+S04,Lotus Noodle House,revenue_vnd,2025-12-20,25082098.0,16415746.08
+S04,Lotus Noodle House,revenue_vnd,2025-12-21,21454723.0,16431121.23
+S04,Lotus Noodle House,revenue_vnd,2025-12-22,18593123.0,16418534.92
+S04,Lotus Noodle House,revenue_vnd,2025-12-23,17922630.0,16428838.25
+S04,Lotus Noodle House,revenue_vnd,2025-12-24,17808008.0,16420403.8
+S04,Lotus Noodle House,revenue_vnd,2025-12-25,20633555.0,16427308.35
+S04,Lotus Noodle House,revenue_vnd,2025-12-26,19140401.0,16421656.19
+S04,Lotus Noodle House,revenue_vnd,2025-12-27,21654221.0,16426283.13
+S04,Lotus Noodle House,revenue_vnd,2025-12-28,20354463.0,16422495.46
+S04,Lotus Noodle House,revenue_vnd,2025-12-29,19474416.0,16425596.1
+S04,Lotus Noodle House,revenue_vnd,2025-12-30,20667896.0,16423057.87
+S04,Lotus Noodle House,revenue_vnd,2025-12-31,18544640.0,16425135.7
+S04,Lotus Noodle House,raw_material_kg,2025-12-02,64.94,73.62
+S04,Lotus Noodle House,raw_material_kg,2025-12-03,69.33,75.21
+S04,Lotus Noodle House,raw_material_kg,2025-12-04,72.24,73.87
+S04,Lotus Noodle House,raw_material_kg,2025-12-05,77.14,74.57
+S04,Lotus Noodle House,raw_material_kg,2025-12-06,78.2,74.22
+S04,Lotus Noodle House,raw_material_kg,2025-12-07,86.81,74.39
+S04,Lotus Noodle House,raw_material_kg,2025-12-08,89.76,74.31
+S04,Lotus Noodle House,raw_material_kg,2025-12-09,71.92,74.35
+S04,Lotus Noodle House,raw_material_kg,2025-12-10,74.98,74.33
+S04,Lotus Noodle House,raw_material_kg,2025-12-11,100.07,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-12,84.18,74.33
+S04,Lotus Noodle House,raw_material_kg,2025-12-13,88.95,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-14,88.55,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-15,82.74,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-16,85.54,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-17,85.8,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-18,78.8,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-19,95.27,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-20,110.99,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-21,94.14,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-22,89.02,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-23,89.94,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-24,73.53,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-25,89.5,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-26,94.11,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-27,108.18,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-28,90.21,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-29,80.6,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-30,97.26,74.34
+S04,Lotus Noodle House,raw_material_kg,2025-12-31,90.71,74.34
+S05,Mekong Grill,revenue_vnd,2025-12-02,19696308.0,17085812.9
+S05,Mekong Grill,revenue_vnd,2025-12-03,12857878.0,16478234.98
+S05,Mekong Grill,revenue_vnd,2025-12-04,17283018.0,17032284.32
+S05,Mekong Grill,revenue_vnd,2025-12-05,17065298.0,16626607.83
+S05,Mekong Grill,revenue_vnd,2025-12-06,23556673.0,16931122.14
+S05,Mekong Grill,revenue_vnd,2025-12-07,21349979.0,16703242.85
+S05,Mekong Grill,revenue_vnd,2025-12-08,19808954.0,16873837.13
+S05,Mekong Grill,revenue_vnd,2025-12-09,17836761.0,16746133.21
+S05,Mekong Grill,revenue_vnd,2025-12-10,17490875.0,16841730.68
+S05,Mekong Grill,revenue_vnd,2025-12-11,15839520.0,16770167.72
+S05,Mekong Grill,revenue_vnd,2025-12-12,14809551.0,16823738.78
+S05,Mekong Grill,revenue_vnd,2025-12-13,20084852.0,16783636.21
+S05,Mekong Grill,revenue_vnd,2025-12-14,23439110.0,16813656.45
+S05,Mekong Grill,revenue_vnd,2025-12-15,18229933.0,16791183.71
+S05,Mekong Grill,revenue_vnd,2025-12-16,17427597.0,16808006.49
+S05,Mekong Grill,revenue_vnd,2025-12-17,20503572.0,16795413.19
+S05,Mekong Grill,revenue_vnd,2025-12-18,22660317.0,16804840.37
+S05,Mekong Grill,revenue_vnd,2025-12-19,22388267.0,16797783.31
+S05,Mekong Grill,revenue_vnd,2025-12-20,32035997.0,16803066.12
+S05,Mekong Grill,revenue_vnd,2025-12-21,24165727.0,16799111.48
+S05,Mekong Grill,revenue_vnd,2025-12-22,22129481.0,16802071.87
+S05,Mekong Grill,revenue_vnd,2025-12-23,26883326.0,16799855.76
+S05,Mekong Grill,revenue_vnd,2025-12-24,22327448.0,16801514.71
+S05,Mekong Grill,revenue_vnd,2025-12-25,25332193.0,16800272.85
+S05,Mekong Grill,revenue_vnd,2025-12-26,24335071.0,16801202.49
+S05,Mekong Grill,revenue_vnd,2025-12-27,36290839.0,16800506.57
+S05,Mekong Grill,revenue_vnd,2025-12-28,24839411.0,16801027.53
+S05,Mekong Grill,revenue_vnd,2025-12-29,22006129.0,16800637.55
+S05,Mekong Grill,revenue_vnd,2025-12-30,23940785.0,16800929.48
+S05,Mekong Grill,revenue_vnd,2025-12-31,22369694.0,16800710.94
+S05,Mekong Grill,raw_material_kg,2025-12-02,82.6,65.85
+S05,Mekong Grill,raw_material_kg,2025-12-03,50.89,69.65
+S05,Mekong Grill,raw_material_kg,2025-12-04,76.86,71.21
+S05,Mekong Grill,raw_material_kg,2025-12-05,64.83,71.21
+S05,Mekong Grill,raw_material_kg,2025-12-06,85.74,70.66
+S05,Mekong Grill,raw_material_kg,2025-12-07,88.28,70.16
+S05,Mekong Grill,raw_material_kg,2025-12-08,73.89,69.93
+S05,Mekong Grill,raw_material_kg,2025-12-09,62.22,69.89
+S05,Mekong Grill,raw_material_kg,2025-12-10,77.51,69.95
+S05,Mekong Grill,raw_material_kg,2025-12-11,65.44,70.01
+S05,Mekong Grill,raw_material_kg,2025-12-12,65.48,70.05
+S05,Mekong Grill,raw_material_kg,2025-12-13,93.24,70.06
+S05,Mekong Grill,raw_material_kg,2025-12-14,86.96,70.05
+S05,Mekong Grill,raw_material_kg,2025-12-15,63.45,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-16,73.54,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-17,78.7,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-18,85.72,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-19,94.41,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-20,129.78,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-21,86.19,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-22,89.95,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-23,96.92,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-24,95.4,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-25,103.65,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-26,101.73,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-27,123.18,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-28,103.64,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-29,87.24,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-30,107.75,70.04
+S05,Mekong Grill,raw_material_kg,2025-12-31,82.27,70.04
+S06,Riverbank Seafood,revenue_vnd,2025-12-02,20974286.0,18934031.81
+S06,Riverbank Seafood,revenue_vnd,2025-12-03,21425092.0,19848295.62
+S06,Riverbank Seafood,revenue_vnd,2025-12-04,20657299.0,20918555.06
+S06,Riverbank Seafood,revenue_vnd,2025-12-05,21482124.0,20771688.4
+S06,Riverbank Seafood,revenue_vnd,2025-12-06,25676836.0,20473433.96
+S06,Riverbank Seafood,revenue_vnd,2025-12-07,28851390.0,20485625.13
+S06,Riverbank Seafood,revenue_vnd,2025-12-08,22320947.0,20566147.6
+S06,Riverbank Seafood,revenue_vnd,2025-12-09,23479088.0,20570168.51
+S06,Riverbank Seafood,revenue_vnd,2025-12-10,24726332.0,20549089.06
+S06,Riverbank Seafood,revenue_vnd,2025-12-11,24533069.0,20546115.88
+S06,Riverbank Seafood,revenue_vnd,2025-12-12,23594249.0,20551460.79
+S06,Riverbank Seafood,revenue_vnd,2025-12-13,30210160.0,20552734.91
+S06,Riverbank Seafood,revenue_vnd,2025-12-14,29156872.0,20551426.6
+S06,Riverbank Seafood,revenue_vnd,2025-12-15,23005664.0,20550969.24
+S06,Riverbank Seafood,revenue_vnd,2025-12-16,20873154.0,20551276.35
+S06,Riverbank Seafood,revenue_vnd,2025-12-17,19952027.0,20551425.86
+S06,Riverbank Seafood,revenue_vnd,2025-12-18,22195287.0,20551357.57
+S06,Riverbank Seafood,revenue_vnd,2025-12-19,23040691.0,20551311.6
+S06,Riverbank Seafood,revenue_vnd,2025-12-20,37010050.0,20551325.63
+S06,Riverbank Seafood,revenue_vnd,2025-12-21,33004685.0,20551339.14
+S06,Riverbank Seafood,revenue_vnd,2025-12-22,23506007.0,20551336.63
+S06,Riverbank Seafood,revenue_vnd,2025-12-23,31042933.0,20551332.8
+S06,Riverbank Seafood,revenue_vnd,2025-12-24,27246958.0,20551333.13
+S06,Riverbank Seafood,revenue_vnd,2025-12-25,26030894.0,20551334.17
+S06,Riverbank Seafood,revenue_vnd,2025-12-26,24442175.0,20551334.18
+S06,Riverbank Seafood,revenue_vnd,2025-12-27,33458707.0,20551333.9
+S06,Riverbank Seafood,revenue_vnd,2025-12-28,40713257.0,20551333.88
+S06,Riverbank Seafood,revenue_vnd,2025-12-29,31361129.0,20551333.95
+S06,Riverbank Seafood,revenue_vnd,2025-12-30,32404520.0,20551333.96
+S06,Riverbank Seafood,revenue_vnd,2025-12-31,30089502.0,20551333.94
+S06,Riverbank Seafood,raw_material_kg,2025-12-02,78.3,72.71
+S06,Riverbank Seafood,raw_material_kg,2025-12-03,84.54,69.16
+S06,Riverbank Seafood,raw_material_kg,2025-12-04,79.47,73.41
+S06,Riverbank Seafood,raw_material_kg,2025-12-05,76.17,78.45
+S06,Riverbank Seafood,raw_material_kg,2025-12-06,105.31,81.1
+S06,Riverbank Seafood,raw_material_kg,2025-12-07,118.76,81.42
+S06,Riverbank Seafood,raw_material_kg,2025-12-08,73.63,80.65
+S06,Riverbank Seafood,raw_material_kg,2025-12-09,91.46,79.87
+S06,Riverbank Seafood,raw_material_kg,2025-12-10,90.48,79.5
+S06,Riverbank Seafood,raw_material_kg,2025-12-11,96.4,79.49
+S06,Riverbank Seafood,raw_material_kg,2025-12-12,85.6,79.62
+S06,Riverbank Seafood,raw_material_kg,2025-12-13,112.96,79.74
+S06,Riverbank Seafood,raw_material_kg,2025-12-14,122.55,79.79
+S06,Riverbank Seafood,raw_material_kg,2025-12-15,94.95,79.79
+S06,Riverbank Seafood,raw_material_kg,2025-12-16,75.37,79.77
+S06,Riverbank Seafood,raw_material_kg,2025-12-17,73.99,79.75
+S06,Riverbank Seafood,raw_material_kg,2025-12-18,84.47,79.74
+S06,Riverbank Seafood,raw_material_kg,2025-12-19,83.31,79.74
+S06,Riverbank Seafood,raw_material_kg,2025-12-20,154.0,79.75
+S06,Riverbank Seafood,raw_material_kg,2025-12-21,122.55,79.75
+S06,Riverbank Seafood,raw_material_kg,2025-12-22,88.92,79.75
+S06,Riverbank Seafood,raw_material_kg,2025-12-23,101.48,79.75
+S06,Riverbank Seafood,raw_material_kg,2025-12-24,108.08,79.75
+S06,Riverbank Seafood,raw_material_kg,2025-12-25,104.26,79.75
+S06,Riverbank Seafood,raw_material_kg,2025-12-26,94.45,79.75
+S06,Riverbank Seafood,raw_material_kg,2025-12-27,126.35,79.75
+S06,Riverbank Seafood,raw_material_kg,2025-12-28,142.82,79.75
+S06,Riverbank Seafood,raw_material_kg,2025-12-29,126.6,79.75
+S06,Riverbank Seafood,raw_material_kg,2025-12-30,125.17,79.75
+S06,Riverbank Seafood,raw_material_kg,2025-12-31,105.39,79.75
+S07,Green Bowl Vegan,revenue_vnd,2025-12-02,13386994.0,15376459.57
+S07,Green Bowl Vegan,revenue_vnd,2025-12-03,16433662.0,14951964.38
+S07,Green Bowl Vegan,revenue_vnd,2025-12-04,16167123.0,15275504.04
+S07,Green Bowl Vegan,revenue_vnd,2025-12-05,15488148.0,15026893.54
+S07,Green Bowl Vegan,revenue_vnd,2025-12-06,14409245.0,15217893.89
+S07,Green Bowl Vegan,revenue_vnd,2025-12-07,15357802.0,15071153.21
+S07,Green Bowl Vegan,revenue_vnd,2025-12-08,13123383.0,15183890.31
+S07,Green Bowl Vegan,revenue_vnd,2025-12-09,14928127.0,15097277.29
+S07,Green Bowl Vegan,revenue_vnd,2025-12-10,17079488.0,15163819.85
+S07,Green Bowl Vegan,revenue_vnd,2025-12-11,17053757.0,15112696.91
+S07,Green Bowl Vegan,revenue_vnd,2025-12-12,15727754.0,15151973.35
+S07,Green Bowl Vegan,revenue_vnd,2025-12-13,22091506.0,15121798.27
+S07,Green Bowl Vegan,revenue_vnd,2025-12-14,18337232.0,15144981.01
+S07,Green Bowl Vegan,revenue_vnd,2025-12-15,15345705.0,15127170.3
+S07,Green Bowl Vegan,revenue_vnd,2025-12-16,15644391.0,15140853.81
+S07,Green Bowl Vegan,revenue_vnd,2025-12-17,16905369.0,15130341.12
+S07,Green Bowl Vegan,revenue_vnd,2025-12-18,15014705.0,15138417.75
+S07,Green Bowl Vegan,revenue_vnd,2025-12-19,16666068.0,15132212.68
+S07,Green Bowl Vegan,revenue_vnd,2025-12-20,16864178.0,15136979.88
+S07,Green Bowl Vegan,revenue_vnd,2025-12-21,19007162.0,15133317.37
+S07,Green Bowl Vegan,revenue_vnd,2025-12-22,21098949.0,15136131.18
+S07,Green Bowl Vegan,revenue_vnd,2025-12-23,20404038.0,15133969.4
+S07,Green Bowl Vegan,revenue_vnd,2025-12-24,18490003.0,15135630.24
+S07,Green Bowl Vegan,revenue_vnd,2025-12-25,20009759.0,15134354.26
+S07,Green Bowl Vegan,revenue_vnd,2025-12-26,15499108.0,15135334.56
+S07,Green Bowl Vegan,revenue_vnd,2025-12-27,19209319.0,15134581.42
+S07,Green Bowl Vegan,revenue_vnd,2025-12-28,20810542.0,15135160.04
+S07,Green Bowl Vegan,revenue_vnd,2025-12-29,16960826.0,15134715.5
+S07,Green Bowl Vegan,revenue_vnd,2025-12-30,19543405.0,15135057.03
+S07,Green Bowl Vegan,revenue_vnd,2025-12-31,19960958.0,15134794.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-02,48.07,52.69
+S07,Green Bowl Vegan,raw_material_kg,2025-12-03,54.43,52.58
+S07,Green Bowl Vegan,raw_material_kg,2025-12-04,62.88,52.65
+S07,Green Bowl Vegan,raw_material_kg,2025-12-05,50.02,52.65
+S07,Green Bowl Vegan,raw_material_kg,2025-12-06,43.86,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-07,54.36,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-08,46.68,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-09,51.35,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-10,60.87,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-11,61.57,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-12,45.52,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-13,76.5,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-14,74.34,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-15,47.42,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-16,52.01,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-17,56.02,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-18,54.53,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-19,56.75,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-20,64.64,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-21,63.23,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-22,67.57,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-23,61.16,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-24,59.49,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-25,77.39,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-26,53.39,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-27,63.29,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-28,72.29,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-29,66.79,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-30,64.47,52.64
+S07,Green Bowl Vegan,raw_material_kg,2025-12-31,66.43,52.64
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-02,16200698.0,17816871.87
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-03,15644338.0,17207734.47
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-04,19026495.0,17397122.31
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-05,15937086.0,17826367.18
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-06,21831749.0,18168443.01
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-07,23586611.0,18329227.44
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-08,16423589.0,18348421.57
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-09,17158223.0,18302519.33
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-10,20315396.0,18250089.5
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-11,17682321.0,18217455.4
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-12,16012714.0,18206728.98
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-13,20274802.0,18209391.28
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-14,25805660.0,18216294.63
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-15,21882949.0,18221950.18
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-16,17791927.0,18224686.13
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-17,21729931.0,18225079.15
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-18,20438874.0,18224362.77
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-19,19435230.0,18223506.96
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-20,24700060.0,18222961.06
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-21,24239022.0,18222773.1
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-22,19866139.0,18222809.33
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-23,19942020.0,18222920.14
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-24,18201610.0,18223013.54
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-25,20883990.0,18223060.0
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-26,17324029.0,18223067.74
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-27,24219618.0,18223056.61
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-28,23582812.0,18223042.66
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-29,20021248.0,18223033.54
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-30,25006854.0,18223030.26
+S08,Hanoi Bun Cha,revenue_vnd,2025-12-31,26178959.0,18223030.73
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-02,84.02,89.08
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-03,73.71,84.99
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-04,83.2,85.51
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-05,82.35,87.52
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-06,104.21,89.19
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-07,127.08,90.01
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-08,87.38,90.16
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-09,90.78,90.0
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-10,87.11,89.79
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-11,87.67,89.65
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-12,76.76,89.6
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-13,98.23,89.61
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-14,115.57,89.63
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-15,106.01,89.65
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-16,94.63,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-17,98.68,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-18,102.36,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-19,89.14,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-20,118.76,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-21,119.83,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-22,86.83,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-23,81.88,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-24,86.61,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-25,86.03,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-26,91.39,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-27,117.48,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-28,123.44,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-29,108.82,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-30,116.82,89.66
+S08,Hanoi Bun Cha,raw_material_kg,2025-12-31,128.88,89.66
+S09,Street Eats Hub,revenue_vnd,2025-12-02,17281262.0,15102290.73
+S09,Street Eats Hub,revenue_vnd,2025-12-03,15464973.0,16091689.21
+S09,Street Eats Hub,revenue_vnd,2025-12-04,16893876.0,17089817.97
+S09,Street Eats Hub,revenue_vnd,2025-12-05,17448731.0,17592298.81
+S09,Street Eats Hub,revenue_vnd,2025-12-06,18243225.0,17712142.59
+S09,Street Eats Hub,revenue_vnd,2025-12-07,19498468.0,17670333.72
+S09,Street Eats Hub,revenue_vnd,2025-12-08,17102863.0,17606349.93
+S09,Street Eats Hub,revenue_vnd,2025-12-09,19019972.0,17568384.82
+S09,Street Eats Hub,revenue_vnd,2025-12-10,16754612.0,17556287.16
+S09,Street Eats Hub,revenue_vnd,2025-12-11,19491003.0,17557111.27
+S09,Street Eats Hub,revenue_vnd,2025-12-12,20025048.0,17560964.13
+S09,Street Eats Hub,revenue_vnd,2025-12-13,22905093.0,17563701.07
+S09,Street Eats Hub,revenue_vnd,2025-12-14,20485524.0,17564775.46
+S09,Street Eats Hub,revenue_vnd,2025-12-15,19999560.0,17564871.24
+S09,Street Eats Hub,revenue_vnd,2025-12-16,22518855.0,17564658.72
+S09,Street Eats Hub,revenue_vnd,2025-12-17,16187153.0,17564470.16
+S09,Street Eats Hub,revenue_vnd,2025-12-18,18257780.0,17564382.05
+S09,Street Eats Hub,revenue_vnd,2025-12-19,15831195.0,17564364.64
+S09,Street Eats Hub,revenue_vnd,2025-12-20,19667377.0,17564374.73
+S09,Street Eats Hub,revenue_vnd,2025-12-21,18188403.0,17564387.12
+S09,Street Eats Hub,revenue_vnd,2025-12-22,18732013.0,17564393.93
+S09,Street Eats Hub,revenue_vnd,2025-12-23,18571610.0,17564395.86
+S09,Street Eats Hub,revenue_vnd,2025-12-24,18240269.0,17564395.53
+S09,Street Eats Hub,revenue_vnd,2025-12-25,20022924.0,17564394.76
+S09,Street Eats Hub,revenue_vnd,2025-12-26,21232433.0,17564394.26
+S09,Street Eats Hub,revenue_vnd,2025-12-27,21942246.0,17564394.08
+S09,Street Eats Hub,revenue_vnd,2025-12-28,24779862.0,17564394.07
+S09,Street Eats Hub,revenue_vnd,2025-12-29,15378560.0,17564394.12
+S09,Street Eats Hub,revenue_vnd,2025-12-30,19450332.0,17564394.15
+S09,Street Eats Hub,revenue_vnd,2025-12-31,15892165.0,17564394.17
+S09,Street Eats Hub,raw_material_kg,2025-12-02,89.24,72.97
+S09,Street Eats Hub,raw_material_kg,2025-12-03,71.62,77.73
+S09,Street Eats Hub,raw_material_kg,2025-12-04,77.11,83.07
+S09,Street Eats Hub,raw_material_kg,2025-12-05,82.58,86.0
+S09,Street Eats Hub,raw_material_kg,2025-12-06,92.11,86.8
+S09,Street Eats Hub,raw_material_kg,2025-12-07,98.07,86.59
+S09,Street Eats Hub,raw_material_kg,2025-12-08,73.93,86.17
+S09,Street Eats Hub,raw_material_kg,2025-12-09,98.55,85.9
+S09,Street Eats Hub,raw_material_kg,2025-12-10,83.69,85.8
+S09,Street Eats Hub,raw_material_kg,2025-12-11,95.95,85.8
+S09,Street Eats Hub,raw_material_kg,2025-12-12,87.34,85.83
+S09,Street Eats Hub,raw_material_kg,2025-12-13,113.08,85.86
+S09,Street Eats Hub,raw_material_kg,2025-12-14,94.34,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-15,100.89,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-16,104.47,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-17,89.71,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-18,90.29,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-19,84.32,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-20,102.69,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-21,89.4,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-22,97.89,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-23,87.22,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-24,85.82,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-25,94.84,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-26,101.21,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-27,104.32,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-28,118.09,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-29,77.86,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-30,90.24,85.87
+S09,Street Eats Hub,raw_material_kg,2025-12-31,76.23,85.87
+S10,Family Rice Kitchen,revenue_vnd,2025-12-02,13616133.0,13423683.51
+S10,Family Rice Kitchen,revenue_vnd,2025-12-03,12778684.0,13889885.46
+S10,Family Rice Kitchen,revenue_vnd,2025-12-04,16020167.0,13697300.28
+S10,Family Rice Kitchen,revenue_vnd,2025-12-05,15592144.0,13920230.78
+S10,Family Rice Kitchen,revenue_vnd,2025-12-06,16380771.0,13700667.16
+S10,Family Rice Kitchen,revenue_vnd,2025-12-07,18900576.0,13920602.9
+S10,Family Rice Kitchen,revenue_vnd,2025-12-08,13372746.0,13700709.73
+S10,Family Rice Kitchen,revenue_vnd,2025-12-09,15006405.0,13920606.32
+S10,Family Rice Kitchen,revenue_vnd,2025-12-10,12345844.0,13700711.41
+S10,Family Rice Kitchen,revenue_vnd,2025-12-11,15984002.0,13920605.2
+S10,Family Rice Kitchen,revenue_vnd,2025-12-12,17483630.0,13700712.59
+S10,Family Rice Kitchen,revenue_vnd,2025-12-13,16730797.0,13920604.03
+S10,Family Rice Kitchen,revenue_vnd,2025-12-14,19221678.0,13700713.76
+S10,Family Rice Kitchen,revenue_vnd,2025-12-15,16431149.0,13920602.86
+S10,Family Rice Kitchen,revenue_vnd,2025-12-16,15015417.0,13700714.93
+S10,Family Rice Kitchen,revenue_vnd,2025-12-17,16029146.0,13920601.69
+S10,Family Rice Kitchen,revenue_vnd,2025-12-18,14371007.0,13700716.1
+S10,Family Rice Kitchen,revenue_vnd,2025-12-19,13587804.0,13920600.52
+S10,Family Rice Kitchen,revenue_vnd,2025-12-20,17264526.0,13700717.27
+S10,Family Rice Kitchen,revenue_vnd,2025-12-21,17992478.0,13920599.35
+S10,Family Rice Kitchen,revenue_vnd,2025-12-22,17380690.0,13700718.44
+S10,Family Rice Kitchen,revenue_vnd,2025-12-23,15709728.0,13920598.18
+S10,Family Rice Kitchen,revenue_vnd,2025-12-24,18645266.0,13700719.62
+S10,Family Rice Kitchen,revenue_vnd,2025-12-25,17600761.0,13920597.0
+S10,Family Rice Kitchen,revenue_vnd,2025-12-26,13407671.0,13700720.79
+S10,Family Rice Kitchen,revenue_vnd,2025-12-27,19285851.0,13920595.83
+S10,Family Rice Kitchen,revenue_vnd,2025-12-28,20777680.0,13700721.96
+S10,Family Rice Kitchen,revenue_vnd,2025-12-29,14017231.0,13920594.66
+S10,Family Rice Kitchen,revenue_vnd,2025-12-30,17171585.0,13700723.13
+S10,Family Rice Kitchen,revenue_vnd,2025-12-31,21475356.0,13920593.49
+S10,Family Rice Kitchen,raw_material_kg,2025-12-02,75.8,70.33
+S10,Family Rice Kitchen,raw_material_kg,2025-12-03,73.76,71.77
+S10,Family Rice Kitchen,raw_material_kg,2025-12-04,92.94,70.11
+S10,Family Rice Kitchen,raw_material_kg,2025-12-05,82.62,70.95
+S10,Family Rice Kitchen,raw_material_kg,2025-12-06,86.67,70.58
+S10,Family Rice Kitchen,raw_material_kg,2025-12-07,107.8,70.73
+S10,Family Rice Kitchen,raw_material_kg,2025-12-08,71.96,70.67
+S10,Family Rice Kitchen,raw_material_kg,2025-12-09,76.31,70.7
+S10,Family Rice Kitchen,raw_material_kg,2025-12-10,64.09,70.68
+S10,Family Rice Kitchen,raw_material_kg,2025-12-11,83.04,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-12,86.3,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-13,89.51,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-14,93.28,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-15,71.52,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-16,74.18,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-17,82.96,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-18,79.33,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-19,67.12,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-20,93.01,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-21,96.18,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-22,86.5,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-23,85.92,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-24,100.26,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-25,86.59,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-26,75.54,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-27,107.01,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-28,92.32,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-29,74.06,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-30,80.91,70.69
+S10,Family Rice Kitchen,raw_material_kg,2025-12-31,114.41,70.69
