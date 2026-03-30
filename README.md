@@ -1,6 +1,4 @@
 # REVENUESCAN – TIME-SERIES FORECASTING SYSTEM
-**Timeline:** 11/2024 - 06/2025  
-**Role:** TECHNICAL LEADER
 
 ## Introduction
 Welcome to **RevenueScan**! This project is a comprehensive time-series forecasting system specifically designed for Small and Medium Enterprises (SMEs) in the Food & Beverage (F&B) industry.
