@@ -1,13 +1,14 @@
-# RevenueScan Models - ARIMA Forecasting for F&B SMEs
+# RevenueScan Models - ARIMA/SARIMA Forecasting for F&B SMEs
 
 This folder is a complete personal project for forecasting:
 - Daily revenue
 - Daily raw material demand
 
 Scope:
+- Dataset: RMIT Data Explorers Competition includes:
 - 10 simulated F&B stores
 - 365 days of realistic synthetic data
-- ARIMA forecasting pipeline with MAE and RMSE evaluation
+- ARIMA/SARIMA forecasting pipeline with MAE and RMSE evaluation
 
 ## Project Structure
 
@@ -32,7 +33,7 @@ Models/
       metrics_overall.csv
     plots/
       *.png
-  src/
+  ARIMA/
     __init__.py
     data_generator.py
     preprocessing.py
