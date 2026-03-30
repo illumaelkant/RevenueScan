@@ -2,84 +2,56 @@ from pathlib import Path
 
 import pandas as pd
 
-from src.data_generator import generate_synthetic_dataset
-from src.preprocessing import load_and_preprocess
-from src.training import train_and_forecast_all
-from src.visualization import save_forecast_plots
+from ARIMA.preprocessing import load_and_preprocess
+from ARIMA.training import train_and_forecast_all
+from ARIMA.visualization import save_forecast_plots
+from SARIMA.training import train_and_forecast_all as train_and_forecast_all_sarima
 
 
-def build_inventory_plan(forecast_df: pd.DataFrame) -> pd.DataFrame:
-    material_fc = forecast_df[forecast_df["target"] == "raw_material_kg"].copy()
-    material_fc["safety_stock_kg"] = material_fc["forecast_value"].mul(0.15).round(2)
-    material_fc["recommended_purchase_kg"] = (
-        material_fc["forecast_value"] + material_fc["safety_stock_kg"]
-    ).round(2)
-    return material_fc[
-        [
-            "restaurant_id",
-            "restaurant_name",
-            "date",
-            "forecast_value",
-            "safety_stock_kg",
-            "recommended_purchase_kg",
-        ]
-    ]
-
-
-def build_business_summary(forecast_df: pd.DataFrame) -> pd.DataFrame:
-    revenue_fc = (
-        forecast_df[forecast_df["target"] == "revenue_vnd"]
-        .groupby(["restaurant_id", "restaurant_name"], as_index=False)["forecast_value"]
-        .sum()
-        .rename(columns={"forecast_value": "forecast_revenue_30d_vnd"})
-    )
-
-    material_fc = (
-        forecast_df[forecast_df["target"] == "raw_material_kg"]
-        .groupby(["restaurant_id", "restaurant_name"], as_index=False)["forecast_value"]
-        .sum()
-        .rename(columns={"forecast_value": "forecast_material_30d_kg"})
-    )
-
-    summary = revenue_fc.merge(material_fc, on=["restaurant_id", "restaurant_name"], how="inner")
-    summary["expected_daily_revenue_vnd"] = (
-        summary["forecast_revenue_30d_vnd"] / 30.0
-    ).round(0)
-    summary["expected_daily_material_kg"] = (
-        summary["forecast_material_30d_kg"] / 30.0
-    ).round(2)
-    return summary.sort_values("forecast_revenue_30d_vnd", ascending=False)
-
-
-def main() -> None:
+def main():
     root = Path(__file__).resolve().parent
+    USE_SARIMA = True  ## co dung sarima, chay va ghi de ket qua phan arima len output
 
-    raw_data_path = root / "data" / "raw" / "fnb_synthetic_10_stores_1y.csv"
-    processed_data_path = root / "data" / "processed" / "fnb_daily_clean.csv"
+    ## Folder configuration
+    raw_data_path = root/"data"/"raw"/"fnb_synthetic_10_stores_1y.csv"
+    processed_data_path = root/"data"/"processed"/"fnb_daily_clean.csv"
 
-    output_forecasts = root / "output" / "forecasts"
-    output_metrics = root / "output" / "metrics"
+    output_forecasts = root/"output"/"forecasts"
+    output_metrics = root/"output"/"metrics"
     output_plots = root / "output" / "plots"
+
 
     for p in [output_forecasts, output_metrics, output_plots]:
         p.mkdir(parents=True, exist_ok=True)
 
-    print("[1/5] Generating synthetic data for 10 F&B stores (1 year)...")
-    generate_synthetic_dataset(output_csv=raw_data_path, start_date="2025-01-01", days=365, seed=42)
+    ## Running the pipeline
+    print("Running preprocessing")
+    clean_df = load_and_preprocess(raw_data_path,processed_data_path)
 
-    print("[2/5] Running preprocessing...")
-    clean_df = load_and_preprocess(raw_csv=raw_data_path, processed_csv=processed_data_path)
+    if USE_SARIMA == False:
+        print("Training SARIMA...")
+        metrics_df, test_pred_df, future_forecast_df = train_and_forecast_all_sarima(
+            data=clean_df,
+            ## for best results, da thu va param tot nhat la (2,1,2) va (1,0,1,7) cho du lieu tuan cua quan
+            order=(2, 1, 2),
+            seasonal_order=(1, 0, 1, 7),
+            test_days=30,
+            forecast_horizon=30,
+        )
+    else:
+        print("Training ARIMA...")
+        metrics_df, test_pred_df, future_forecast_df = train_and_forecast_all(
+            data=clean_df,
+            ## change param here for best results
+            arima_order=(2, 1, 2),
+            ## test day is 30
+            test_days=30,
+            forecast_horizon=30,
+        )
 
-    print("[3/5] Training ARIMA and forecasting targets...")
-    metrics_df, test_pred_df, future_forecast_df = train_and_forecast_all(
-        data=clean_df,
-        arima_order=(2, 1, 2),
-        test_days=30,
-        forecast_horizon=30,
-    )
-
-    print("[4/5] Exporting metrics and forecast outputs...")
-    metrics_path = output_metrics / "metrics_by_store_target.csv"
+    ## exporting metrics
+    print("[Exporting metrics and forecast outputs...")
+    metrics_path = root/"output"/"metrics"/"metrics_by_store_target.csv"
     metrics_df.to_csv(metrics_path, index=False)
 
     metrics_overall = (
@@ -87,18 +59,12 @@ def main() -> None:
         .mean()
         .rename(columns={"mae": "avg_mae", "rmse": "avg_rmse"})
     )
-    metrics_overall.to_csv(output_metrics / "metrics_overall.csv", index=False)
+    metrics_overall.to_csv(root/"output"/"metrics""metrics_overall.csv", index=False)
 
-    test_pred_df.to_csv(output_forecasts / "test_predictions.csv", index=False)
-    future_forecast_df.to_csv(output_forecasts / "forecast_next_30_days.csv", index=False)
+    test_pred_df.to_csv(root/"output"/"forecasts"/"test_predictions.csv", index=False)
+    future_forecast_df.to_csv(root/"output"/"forecasts"/"forecast_next_30_days.csv", index=False)
 
-    inventory_plan = build_inventory_plan(future_forecast_df)
-    inventory_plan.to_csv(output_forecasts / "inventory_plan_next_30_days.csv", index=False)
-
-    business_summary = build_business_summary(future_forecast_df)
-    business_summary.to_csv(output_forecasts / "business_decision_summary.csv", index=False)
-
-    print("[5/5] Creating visual reports...")
+    ### visualize plot
     save_forecast_plots(
         data=clean_df,
         test_predictions=test_pred_df,
@@ -107,9 +73,6 @@ def main() -> None:
     )
 
     print("\nPipeline completed successfully.")
-    print(f"- Metrics: {output_metrics}")
-    print(f"- Forecasts: {output_forecasts}")
-    print(f"- Plots: {output_plots}")
 
 
 if __name__ == "__main__":
